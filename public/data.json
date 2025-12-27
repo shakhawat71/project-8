@@ -1,0 +1,513 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+    "title": "Battle Arena X",
+    "companyName": "Nova Games Studio",
+    "id": 1,
+    "description": "Battle Arena X is a competitive multiplayer action game where players engage in fast-paced real-time battles. With multiple characters, special abilities, and ranked modes, it delivers an intense esports-style experience.",
+    "size": 120,
+    "reviews": 8450,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+    "title": "Pixel Quest",
+    "companyName": "RetroByte",
+    "id": 2,
+    "description": "Pixel Quest is a retro adventure RPG featuring pixel-art graphics, dungeon exploration, and classic turn-based combat. Players progress through levels, defeat monsters, and unlock powerful gear.",
+    "size": 85,
+    "reviews": 6200,
+    "ratingAvg": 4.5,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2620 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
+    "title": "Racing Rush",
+    "companyName": "SpeedCore",
+    "id": 3,
+    "description": "Racing Rush is a high-speed racing game with realistic physics, stunning environments, and deep car customization. Compete in tournaments or race against players worldwide.",
+    "size": 140,
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4830 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8",
+    "title": "Zombie Survival",
+    "companyName": "DarkZone Games",
+    "id": 4,
+    "description": "Zombie Survival places players in a post-apocalyptic world where survival depends on strategy, weapon upgrades, and teamwork. Fight waves of zombies and protect safe zones.",
+    "size": 155,
+    "reviews": 9200,
+    "ratingAvg": 4.4,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+    "title": "Fantasy Kingdom",
+    "companyName": "Mythic Labs",
+    "id": 5,
+    "description": "Fantasy Kingdom is a strategy RPG where players build cities, recruit heroes, and battle rival kingdoms. The game combines storytelling, strategy, and role-playing elements.",
+    "size": 180,
+    "reviews": 11300,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 6640 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1511882150382-421056c89033",
+    "title": "Puzzle Mania",
+    "companyName": "BrainWave",
+    "id": 6,
+    "description": "Puzzle Mania offers hundreds of logic-based puzzles designed to test memory, pattern recognition, and problem-solving skills in a relaxing environment.",
+    "size": 60,
+    "reviews": 4100,
+    "ratingAvg": 4.3,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1520 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1598550484424-2e4b4a84d8b5",
+    "title": "Space Odyssey",
+    "companyName": "Orbit Studios",
+    "id": 7,
+    "description": "Space Odyssey lets players explore distant galaxies, mine resources, upgrade spacecraft, and engage in epic space battles against alien factions.",
+    "size": 165,
+    "reviews": 7800,
+    "ratingAvg": 4.5,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3750 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1509191436522-d296cf87d64c",
+    "title": "Football Legends",
+    "companyName": "PlayNation",
+    "id": 8,
+    "description": "Football Legends is a realistic football simulation game featuring career mode, online matches, and competitive tournaments for football fans.",
+    "size": 200,
+    "reviews": 13400,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6700 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1526925539332-aa3b66e35444",
+    "title": "Sniper Ops",
+    "companyName": "StrikeForce",
+    "id": 9,
+    "description": "Sniper Ops is a tactical shooting game where precision and patience are key. Complete missions, unlock weapons, and dominate realistic combat scenarios.",
+    "size": 130,
+    "reviews": 6900,
+    "ratingAvg": 4.4,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 2670 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "title": "City Builder Pro",
+    "companyName": "UrbanSoft",
+    "id": 10,
+    "description": "City Builder Pro allows players to design and manage modern cities by balancing resources, infrastructure, and citizen happiness.",
+    "size": 95,
+    "reviews": 5300,
+    "ratingAvg": 4.2,
+    "downloads": 290000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 1880 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "title": "Mystery Manor",
+    "companyName": "HiddenDoor",
+    "id": 11,
+    "description": "Mystery Manor is a story-driven puzzle adventure where players uncover secrets, solve riddles, and explore haunted locations.",
+    "size": 78,
+    "reviews": 4600,
+    "ratingAvg": 4.5,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 1770 }
+    ]
+  },
+
+  {
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+    "title": "Cyber Runner",
+    "companyName": "NeonPlay",
+    "id": 12,
+    "description": "Cyber Runner is an endless runner set in a futuristic cyberpunk world. Dodge obstacles, collect power-ups, and compete for high scores.",
+    "size": 55,
+    "reviews": 3800,
+    "ratingAvg": 4.1,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "Dragon Slayer",
+    "companyName": "EpicForge",
+    "id": 13,
+    "description": "Dragon Slayer is an action RPG where players hunt legendary dragons, upgrade weapons, and master combat skills across vast fantasy landscapes.",
+    "size": 170,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 610000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4380 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f",
+    "title": "Car Drift Pro",
+    "companyName": "TurboWorks",
+    "id": 14,
+    "description": "Car Drift Pro focuses on precision drifting with realistic physics, challenging tracks, and competitive online leaderboards.",
+    "size": 125,
+    "reviews": 6400,
+    "ratingAvg": 4.4,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 920 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2730 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522120692537-34d9b9fcb3c4",
+    "title": "Island Survival",
+    "companyName": "WildCore",
+    "id": 15,
+    "description": "Island Survival challenges players to gather resources, craft tools, and survive against wild creatures on a mysterious deserted island.",
+    "size": 160,
+    "reviews": 7100,
+    "ratingAvg": 4.3,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2400 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759",
+    "title": "Chess Master AI",
+    "companyName": "LogicStorm",
+    "id": 16,
+    "description": "Chess Master AI offers intelligent opponents, training modes, and competitive ranking systems for both beginners and advanced players.",
+    "size": 40,
+    "reviews": 5200,
+    "ratingAvg": 4.7,
+    "downloads": 360000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2480 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66",
+    "title": "War Strategy X",
+    "companyName": "IronClad Games",
+    "id": 17,
+    "description": "War Strategy X is a real-time strategy game where players command armies, manage resources, and conquer territories through tactical planning.",
+    "size": 190,
+    "reviews": 9600,
+    "ratingAvg": 4.5,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4330 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325",
+    "title": "Soccer Penalty King",
+    "companyName": "GoalLine Studios",
+    "id": 18,
+    "description": "Soccer Penalty King focuses on penalty shootouts with realistic physics, quick matches, and global leaderboards.",
+    "size": 58,
+    "reviews": 4700,
+    "ratingAvg": 4.2,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "title": "Magic Cards Duel",
+    "companyName": "Arcane Deck",
+    "id": 19,
+    "description": "Magic Cards Duel is a strategic card game featuring magical creatures, spells, and competitive PvP battles.",
+    "size": 110,
+    "reviews": 6800,
+    "ratingAvg": 4.6,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 3260 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500534314209-a26db0f5cdbd",
+    "title": "Monster Catcher",
+    "companyName": "PocketBeast",
+    "id": 20,
+    "description": "Monster Catcher lets players explore open worlds, capture unique monsters, train them, and battle against other players.",
+    "size": 145,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 590000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4080 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
+    "title": "Arcade Classics",
+    "companyName": "OldSchool Inc",
+    "id": 21,
+    "description": "Arcade Classics brings together timeless arcade games with modern enhancements, delivering nostalgic fun for all ages.",
+    "size": 70,
+    "reviews": 3900,
+    "ratingAvg": 4.3,
+    "downloads": 240000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 1450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+    "title": "Flight Simulator Go",
+    "companyName": "AeroSim",
+    "id": 22,
+    "description": "Flight Simulator Go offers realistic aircraft controls, detailed environments, and immersive flying experiences for aviation enthusiasts.",
+    "size": 210,
+    "reviews": 9900,
+    "ratingAvg": 4.7,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5350 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "Hacker Challenge",
+    "companyName": "CyberMind",
+    "id": 23,
+    "description": "Hacker Challenge is a logic-based puzzle game where players solve coding-inspired challenges and cybersecurity puzzles.",
+    "size": 65,
+    "reviews": 4400,
+    "ratingAvg": 4.5,
+    "downloads": 280000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "Tower Defense Pro",
+    "companyName": "DefendWorks",
+    "id": 24,
+    "description": "Tower Defense Pro challenges players to build defensive structures, manage upgrades, and stop waves of enemies.",
+    "size": 90,
+    "reviews": 6100,
+    "ratingAvg": 4.4,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2590 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe",
+    "title": "Ninja Stealth",
+    "companyName": "ShadowPlay",
+    "id": 25,
+    "description": "Ninja Stealth is a stealth-action game where players use agility, strategy, and silent attacks to complete missions.",
+    "size": 135,
+    "reviews": 7500,
+    "ratingAvg": 4.6,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3630 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "title": "Battle Royale Mini",
+    "companyName": "StormByte",
+    "id": 26,
+    "description": "Battle Royale Mini delivers fast matches, compact maps, and intense last-player-standing gameplay optimized for mobile.",
+    "size": 150,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 690000,
+    "ratings": [
+      { "name": "1 star", "count": 360 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4520 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b",
+    "title": "Farm Life Simulator",
+    "companyName": "AgriSoft",
+    "id": 27,
+    "description": "Farm Life Simulator allows players to manage crops, raise animals, and grow a virtual farming business.",
+    "size": 100,
+    "reviews": 5600,
+    "ratingAvg": 4.3,
+    "downloads": 370000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2150 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+    "title": "Space War Tactics",
+    "companyName": "Galactic Forge",
+    "id": 28,
+    "description": "Space War Tactics is a turn-based space strategy game where players command fleets, plan battles, and dominate the galaxy.",
+    "size": 175,
+    "reviews": 8300,
+    "ratingAvg": 4.6,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "image": "/images/app1.png",
+    "title": "EcoTrack",
+    "companyName": "GreenTech Ltd",
+    "id": 1,
+    "description": "EcoTrack helps users monitor their daily carbon footprint by tracking transportation, energy usage, and lifestyle choices. The app provides personalized insights, eco-friendly tips, and progress reports to encourage sustainable habits and long-term environmental responsibility.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.6,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "/images/app2.png",
+    "title": "StudyFlow",
+    "companyName": "EduSoft",
+    "id": 2,
+    "description": "StudyFlow is a productivity-focused study planner designed for students. It helps organize class schedules, assignments, and exam deadlines while offering reminders, focus timers, and performance analytics to improve study efficiency and time management.",
+    "size": 38,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "/images/app3.png",
+    "title": "FitBuddy",
+    "companyName": "HealthFirst",
+    "id": 3,
+    "description": "FitBuddy acts as a personal fitness companion, offering customized workout routines, nutrition guidance, and activity tracking. Whether you are a beginner or an advanced athlete, the app adapts to your goals and tracks your progress to keep you motivated.",
+    "size": 52,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  },
+  {
+    "image": "/images/app4.png",
+    "title": "MoneyWise",
+    "companyName": "FinEdge",
+    "id": 4,
+    "description": "MoneyWise simplifies personal finance management by allowing users to track expenses, set budgets, and monitor savings goals. With visual reports and smart alerts, the app helps users build better financial habits and gain control over their money.",
+    "size": 41,
+    "reviews": 1560,
+    "ratingAvg": 4.5,
+    "downloads": 76000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 85 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 510 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "/images/app5.png",
+    "title": "TravelMate",
+    "companyName": "Wander Corp",
+    "id": 5,
+    "description": "TravelMate is a travel planning app that helps users discover destinations, organize itineraries, and manage bookings in one place. It offers recommendations, offline access to plans, and trip reminders to ensure a smooth and stress-free travel experience.",
+    "size": 60,
+    "reviews": 1340,
+    "ratingAvg": 4.3,
+    "downloads": 68000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+  {
+    "image": "/images/app6.png",
+    "title": "NoteSnap",
+    "companyName": "Productive Labs",
+    "id": 6,
+    "description": "NoteSnap is a lightweight note-taking application designed for quick capture of ideas, tasks, and reminders. It supports cloud synchronization, tagging, and search, making it easy to organize notes and access them across multiple devices.",
+    "size": 28,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 255 }
+    ]
+  },
+  {
+    "image": "/images/app7.png",
+    "title": "SkillUp",
+    "companyName": "Learnify",
+    "id": 7,
+    "description": "SkillUp is an online learning platform offering high-quality courses in technology, business, and personal development. The app provides structured learning paths, progress tracking, and certifications to help users upskill and advance their careers.",
+    "size": 75,
+    "reviews": 2670,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "/images/app8.png",
+    "title": "WeatherNow",
+    "companyName": "SkyData",
+    "id": 8,
+    "description": "WeatherNow delivers accurate real-time weather updates, hourly forecasts, and severe weather alerts. Designed with a clean interface, the app helps users plan their day confidently with reliable climate data and location-based notifications.",
+    "size": 33,
+    "reviews": 1120,
+    "ratingAvg": 4.1,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 280 }
+    ]
+  }
+]

@@ -1,12 +1,12 @@
-// src/components/Layout.jsx
+// src/components/Layout.jsx - Update this file
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Nav Bar/NavBar';
 
 const Layout = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <main className="flex grow">
+      <main>
         <Outlet />
       </main>
     </div>

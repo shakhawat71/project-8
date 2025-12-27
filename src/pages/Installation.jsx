@@ -1,4 +1,3 @@
-// src/pages/Installation.jsx
 const Installation = () => {
   return (
     <div className="page-container">

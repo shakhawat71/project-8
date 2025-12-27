@@ -1,4 +1,3 @@
-// src/main.jsx
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -7,6 +6,7 @@ import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import Apps from './App';
 import Installation from './pages/Installation';
+import AppDetails from './pages/AppDetails';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +16,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
+        loader: async () => {
+                const res = await fetch("/data8.json");
+                return res.json();
+                },
       },
       {
         path: "apps",
@@ -25,6 +29,10 @@ const router = createBrowserRouter([
         path: "installation",
         element: <Installation></Installation>,
       },
+      {
+        path: "app/:id",
+        element: <AppDetails></AppDetails>
+      }
     ],
   },
 ]);

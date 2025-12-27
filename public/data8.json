@@ -1,146 +1,149 @@
 [
   {
-    "image": "https://i.ibb.co.com/nMDYYc6Y/eco-truck.jpg",
-    "title": "EcoTrack",
-    "companyName": "GreenTech Ltd",
+    "image": "https://i.ibb.co.com/0y5mnkH0/game1.webp",
+    "title": "Battle Arena X",
+    "companyName": "Nova Games Studio",
     "id": 1,
-    "description": "EcoTrack is a comprehensive environmental tracking app that helps users actively monitor and reduce their carbon footprint in daily life. The app tracks multiple aspects of a user's lifestyle including transportation methods, household energy consumption, water usage, waste generation, and overall lifestyle habits that impact the environment. It provides detailed analytics and visual reports to show the environmental impact of daily choices. EcoTrack also delivers personalized recommendations, tips for sustainable living, and actionable goals tailored to individual lifestyles. Users can track progress over weeks and months, set long-term sustainability goals, and get motivational insights to adopt eco-friendly habits, making it a powerful tool for promoting environmental responsibility and conscious living.",
-    "size": 45,
-    "reviews": 1240,
+    "description": "Battle Arena X is a competitive multiplayer action game where players engage in fast-paced real-time battles. With multiple characters, special abilities, and ranked modes, it delivers an intense esports-style experience.",
+    "size": 120,
+    "reviews": 8450,
     "ratingAvg": 4.6,
-    "downloads": 50000,
+    "downloads": 500000,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 540 }
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3900 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/bjx2KWLp/studyflow.webp",
-    "title": "StudyFlow",
-    "companyName": "EduSoft",
+    "image": "https://i.ibb.co.com/rG8mV26q/game2.jpg",
+    "title": "Pixel Quest",
+    "companyName": "RetroByte",
     "id": 2,
-    "description": "StudyFlow is an all-in-one productivity and study planning app designed to help students maximize efficiency and manage their academic responsibilities effectively. It enables users to organize class schedules, track assignments, set exam reminders, and create personalized study plans. The app also features focus timers, task prioritization tools, and performance analytics that allow students to monitor their progress and identify areas where they need improvement. StudyFlow provides visual summaries and notifications to keep users on track, reduce stress, and help build consistent study habits. By offering structured planning, accountability, and productivity tools, StudyFlow empowers students to improve time management, stay organized, and achieve academic success more effectively.",
-    "size": 38,
-    "reviews": 980,
-    "ratingAvg": 4.4,
-    "downloads": 42000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 360 },
-      { "name": "5 star", "count": 380 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/qM7LkZb3/fitbuddy.png",
-    "title": "FitBuddy",
-    "companyName": "HealthFirst",
-    "id": 3,
-    "description": "FitBuddy is a feature-rich personal fitness app designed to guide users through their health and wellness journey. It offers fully customized workout plans tailored to different fitness levels, from beginners to advanced athletes. In addition to exercise routines, FitBuddy provides nutrition guidance, meal tracking, and hydration reminders to support a holistic healthy lifestyle. Users can log workouts, track physical activity, monitor body metrics, and receive motivational feedback to stay consistent. The app also adapts over time based on progress and performance, providing advanced analytics, progress charts, and achievement milestones. FitBuddy is ideal for anyone aiming to build strength, improve endurance, maintain a healthy lifestyle, or achieve specific fitness goals with structured guidance and ongoing support.",
-    "size": 52,
-    "reviews": 2100,
-    "ratingAvg": 4.7,
-    "downloads": 120000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 240 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 1020 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/pBdT2X8z/moneywise.png",
-    "title": "MoneyWise",
-    "companyName": "FinEdge",
-    "id": 4,
-    "description": "MoneyWise is a comprehensive personal finance management app designed to help users take control of their money and develop smart financial habits. The app allows users to track daily expenses, categorize spending, set and monitor budgets, and visualize income versus expenses through interactive graphs and charts. MoneyWise also provides savings goal tracking, bill reminders, and smart alerts for overspending. By offering insights into spending patterns and actionable recommendations, the app enables users to reduce unnecessary expenditures, plan for future financial goals, and achieve financial stability. It is an essential tool for anyone looking to manage money effectively, make informed financial decisions, and build long-term wealth.",
-    "size": 41,
-    "reviews": 1560,
+    "description": "Pixel Quest is a retro adventure RPG featuring pixel-art graphics, dungeon exploration, and classic turn-based combat. Players progress through levels, defeat monsters, and unlock powerful gear.",
+    "size": 85,
+    "reviews": 6200,
     "ratingAvg": 4.5,
-    "downloads": 76000,
+    "downloads": 320000,
     "ratings": [
-      { "name": "1 star", "count": 45 },
-      { "name": "2 star", "count": 85 },
-      { "name": "3 star", "count": 260 },
-      { "name": "4 star", "count": 510 },
-      { "name": "5 star", "count": 660 }
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2620 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/F4B7HKhg/travelmate.png",
-    "title": "TravelMate",
-    "companyName": "Wander Corp",
+    "image": "https://i.ibb.co.com/4RZygpRM/game3.webp",
+    "title": "Racing Rush",
+    "companyName": "SpeedCore",
+    "id": 3,
+    "description": "Racing Rush is a high-speed racing game with realistic physics, stunning environments, and deep car customization. Compete in tournaments or race against players worldwide.",
+    "size": 140,
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4830 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6RYPz5LL/game4.jpg",
+    "title": "Zombie Survival",
+    "companyName": "DarkZone Games",
+    "id": 4,
+    "description": "Zombie Survival places players in a post-apocalyptic world where survival depends on strategy, weapon upgrades, and teamwork. Fight waves of zombies and protect safe zones.",
+    "size": 155,
+    "reviews": 9200,
+    "ratingAvg": 4.4,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3480 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gbsphK4C/game5.jpg",
+    "title": "Fantasy Kingdom",
+    "companyName": "Mythic Labs",
     "id": 5,
-    "description": "TravelMate is a full-featured travel planning app that simplifies the process of discovering new destinations, planning trips, and managing travel itineraries. Users can explore curated travel recommendations, organize daily schedules, manage reservations, and access offline travel information for convenience. TravelMate also offers reminders for important activities, tips for local attractions, and alerts about flight or hotel updates to ensure a seamless travel experience. The app is designed to reduce travel-related stress by consolidating planning and information in one platform, allowing users to focus on enjoying their trips and making the most of their adventures, whether for business, leisure, or adventure travel.",
-    "size": 60,
-    "reviews": 1340,
-    "ratingAvg": 4.3,
-    "downloads": 68000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 310 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 420 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/d0NKfgFm/notesnap.png",
-    "title": "NoteSnap",
-    "companyName": "Productive Labs",
-    "id": 6,
-    "description": "NoteSnap is a lightweight and intuitive note-taking app designed for capturing ideas, tasks, and reminders quickly and efficiently. The app allows users to organize their notes with tags, folders, and search functionality, while cloud synchronization ensures access across multiple devices. NoteSnap supports rich content, including images, checklists, and links, allowing users to keep all their important information in one place. Ideal for students, professionals, and creative individuals, NoteSnap enhances productivity by simplifying note organization, enabling quick retrieval of information, and providing a structured platform for capturing thoughts and managing daily tasks effectively.",
-    "size": 28,
-    "reviews": 890,
-    "ratingAvg": 4.2,
-    "downloads": 39000,
-    "ratings": [
-      { "name": "1 star", "count": 35 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 210 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 255 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/tpygvvZh/skillup.png",
-    "title": "SkillUp",
-    "companyName": "Learnify",
-    "id": 7,
-    "description": "SkillUp is a professional online learning platform that offers high-quality courses across technology, business, and personal development domains. The app provides structured learning paths with interactive lessons, progress tracking, and certification upon course completion. Users can track their achievements, revisit challenging topics, and gain practical skills applicable to real-world scenarios. SkillUp encourages continuous learning and career advancement by providing a flexible and engaging platform that adapts to individual learning needs. The app is ideal for professionals, students, and lifelong learners seeking to enhance skills, improve employability, and pursue personal growth efficiently.",
-    "size": 75,
-    "reviews": 2670,
+    "description": "Fantasy Kingdom is a strategy RPG where players build cities, recruit heroes, and battle rival kingdoms. The game combines storytelling, strategy, and role-playing elements.",
+    "size": 180,
+    "reviews": 11300,
     "ratingAvg": 4.8,
-    "downloads": 150000,
+    "downloads": 900000,
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 190 },
-      { "name": "4 star", "count": 780 },
-      { "name": "5 star", "count": 1600 }
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 6640 }
     ]
   },
+
   {
-    "image": "https://i.ibb.co.com/LzkQjBhr/weather-now.png",
-    "title": "WeatherNow",
-    "companyName": "SkyData",
-    "id": 8,
-    "description": "WeatherNow is a highly accurate and user-friendly weather application that provides real-time weather updates, hourly forecasts, and severe weather alerts. It delivers precise climate data including temperature, humidity, precipitation, wind speed, and atmospheric pressure. The app offers location-based notifications, helping users plan their day effectively and stay prepared for any weather changes. WeatherNow also includes an intuitive interface with easy-to-read graphs, maps, and radar images. By keeping users informed about current conditions and upcoming weather events, the app helps reduce travel disruptions, enhance outdoor planning, and ensure safety during severe weather conditions.",
-    "size": 33,
-    "reviews": 1120,
-    "ratingAvg": 4.1,
-    "downloads": 54000,
+    "image": "https://i.ibb.co.com/kVfPwTFZ/game6.jpg",
+    "title": "Puzzle Mania",
+    "companyName": "BrainWave",
+    "id": 6,
+    "description": "Puzzle Mania offers hundreds of logic-based puzzles designed to test memory, pattern recognition, and problem-solving skills in a relaxing environment.",
+    "size": 60,
+    "reviews": 4100,
+    "ratingAvg": 4.3,
+    "downloads": 250000,
     "ratings": [
-      { "name": "1 star", "count": 90 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 260 },
-      { "name": "4 star", "count": 360 },
-      { "name": "5 star", "count": 280 }
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1520 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/Mx9bM24T/game7.jpg",
+    "title": "Space Odyssey",
+    "companyName": "Orbit Studios",
+    "id": 7,
+    "description": "Space Odyssey lets players explore distant galaxies, mine resources, upgrade spacecraft, and engage in epic space battles against alien factions.",
+    "size": 165,
+    "reviews": 7800,
+    "ratingAvg": 4.5,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 3750 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/hFwyXhwT/game8.jpg",
+    "title": "Football Legends",
+    "companyName": "PlayNation",
+    "id": 8,
+    "description": "Football Legends is a realistic football simulation game featuring career mode, online matches, and competitive tournaments for football fans.",
+    "size": 200,
+    "reviews": 13400,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6700 }
     ]
   }
 ]

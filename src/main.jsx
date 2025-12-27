@@ -17,13 +17,17 @@ const router = createBrowserRouter([
         index: true,
         element: <Home></Home>,
         loader: async () => {
-                const res = await fetch("/data8.json");
-                return res.json();
-                },
+          const res = await fetch("/data8.json");
+          return res.json();
+        },
       },
       {
         path: "apps",
         element: <Apps></Apps>,
+        loader: async () => {
+          const res = await fetch("/data.json");
+          return res.json();
+        },
       },
       {
         path: "installation",

@@ -36,7 +36,7 @@ const Apps = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
-      <div className="w-full py-16 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-center">
+      <div className="w-full py-16 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white text-center">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             All Games
@@ -129,7 +129,7 @@ const Apps = () => {
             <p className="text-gray-500">Try a different search term</p>
             <button
               onClick={clearSearch}
-              className="mt-4 px-6 py-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
+              className="mt-4 px-6 py-2 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
             >
               Clear Search
             </button>

@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useLocation } from "react-router";
+import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import {
@@ -13,18 +13,63 @@ import {
 } from "recharts";
 
 const AppDetails = () => {
+  const navigate = useNavigate(); 
   const location = useLocation();
   const app = location.state?.app;
-
   const [installed, setInstalled] = useState(false);
 
+  // Check if app is already installed on component mount
+  useEffect(() => {
+    if (app) {
+      const installedApps = JSON.parse(localStorage.getItem('installedApps') || '[]');
+      const isInstalled = installedApps.some(installedApp => installedApp.id === app.id);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setInstalled(isInstalled);
+    }
+  }, [app]);
+
   if (!app) {
-    return <p className="text-center mt-20 text-lg">No app selected.</p>;
-  }
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4">
+      <h1 className="text-6xl font-extrabold text-purple-500 mb-6 animate-bounce">Oops! App Not Found</h1>
+      <p className="text-gray-600 text-center mb-8 max-w-md">
+        The app you are looking for does not exist or has been removed. 
+        Please check out our collection of amazing apps.
+      </p>
+      <button
+        onClick={() => navigate("/apps")}
+        className="px-8 py-3 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:opacity-90 transition transform hover:scale-105"
+      >
+        Browse Apps
+      </button>
+    </div>
+  );
+}
+
 
   const handleInstall = () => {
-    setInstalled(true);
-    toast.success(`${app.title} Installed Successfully.`);
+    // Get existing installed apps
+    const installedApps = JSON.parse(localStorage.getItem('installedApps') || '[]');
+    
+    // Check if already installed
+    const isAlreadyInstalled = installedApps.some(installedApp => installedApp.id === app.id);
+    
+    if (!isAlreadyInstalled) {
+      // Add to installed apps
+      const appWithTimestamp = {
+        ...app,
+        installedDate: new Date().toISOString(),
+        version: "1.0.0" // You can make this dynamic if needed
+      };
+      
+      installedApps.push(appWithTimestamp);
+      localStorage.setItem('installedApps', JSON.stringify(installedApps));
+      setInstalled(true);
+      toast.success(`${app.title} installed successfully! 🎮`, {
+        position: "top-right",
+        autoClose: 3000,
+      });
+    }
   };
 
   const formatDownloads = (num) =>
@@ -75,11 +120,11 @@ const AppDetails = () => {
                 : "bg-linear-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90"
             }`}
           >
-            {installed ? "Installed" : "Install"}
+            {installed ? "Installed ✓" : "Install"}
           </button>
 
           {/* Toast */}
-          <ToastContainer position="top-right" autoClose={2000} />
+          <ToastContainer position="top-right" autoClose={3000} />
       </div>
       </div>
 

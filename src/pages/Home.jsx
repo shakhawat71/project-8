@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       {/* Hero Section */}
-      <section className="text-center py-12 md:py-0 px-4">
+      <section className="text-center py-12 md:py-0 mt-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
           We Build <br />{' '}
           <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">

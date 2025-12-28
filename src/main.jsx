@@ -1,41 +1,38 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import './index.css'
+
+import './index.css';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import Apps from './App';
 import Installation from './pages/Installation';
 import AppDetails from './pages/AppDetails';
+import ErrorPage from './pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <Home></Home>,
-        loader: async () => {
-          const res = await fetch("/data8.json");
-          return res.json();
-        },
+        element: <Home />,
+        loader: async () => (await fetch("/data8.json")).json(),
       },
       {
         path: "apps",
-        element: <Apps></Apps>,
-        loader: async () => {
-          const res = await fetch("/data.json");
-          return res.json();
-        },
+        element: <Apps />,
+        loader: async () => (await fetch("/data.json")).json(),
       },
       {
         path: "installation",
-        element: <Installation></Installation>,
+        element: <Installation />,
       },
       {
         path: "app/:id",
-        element: <AppDetails></AppDetails>
+        element: <AppDetails />,
       }
     ],
   },
@@ -44,5 +41,5 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );

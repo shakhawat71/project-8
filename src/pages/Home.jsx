@@ -3,15 +3,15 @@ import { useLoaderData, useNavigate } from "react-router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faStar } from '@fortawesome/free-solid-svg-icons';
 
-import appStoreIcon from '/src/assets/Image/app store.png';
-import playStoreIcon from '/src/assets/Image/playstore.png';
-import iphoneImg from '/src/assets/Image/iphone.png';
-import ellipse1 from '/src/assets/Image/Ellipse1.png';
-import ellipse2 from '/src/assets/Image/Ellipse2.png';
-import ellipse3 from '/src/assets/Image/Ellipse3.png';
-import ellipse4 from '/src/assets/Image/Ellipse4.png';
-import ellipse5 from '/src/assets/Image/Ellipse5.png';
-import ellipse6 from '/src/assets/Image/Ellipse6.png';
+import appStoreIcon from '../assets/Image/app store.png';
+import playStoreIcon from '../assets/Image/playstore.png';
+import iphoneImg from '../assets/Image/Iphone.png';
+import ellipse1 from '../assets/Image/Ellipse1.png';
+import ellipse2 from '../assets/Image/Ellipse2.png';
+import ellipse3 from '../assets/Image/Ellipse3.png';
+import ellipse4 from '../assets/Image/Ellipse4.png';
+import ellipse5 from '../assets/Image/Ellipse5.png';
+import ellipse6 from '../assets/Image/Ellipse6.png';
 
 const Home = () => {
   const games = useLoaderData();

@@ -3,9 +3,9 @@ import { useLocation, useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
-import downloadIcon from '/src/assets/Image/download.png';
-import starIcon from '/src/assets/Image/star.png';
-import reviewIcon from '/src/assets/Image/review.png';
+import downloadIcon from '../assets/Image/download.png';
+import starIcon from '../assets/Image/star.png';
+import reviewIcon from '../assets/Image/review.png';
 
 import {
   BarChart,

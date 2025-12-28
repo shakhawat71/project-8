@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import logo from '../../assets/Image/logo.png';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/Image/logo.png"
+                src={logo}
                 alt="Logo"
                 className="h-10 w-10"
               />

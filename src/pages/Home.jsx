@@ -3,7 +3,15 @@ import { useLoaderData, useNavigate } from "react-router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faStar } from '@fortawesome/free-solid-svg-icons';
 
-
+import appStoreIcon from '/src/assets/Image/app store.png';
+import playStoreIcon from '/src/assets/Image/playstore.png';
+import iphoneImg from '/src/assets/Image/iphone.png';
+import ellipse1 from '/src/assets/Image/Ellipse1.png';
+import ellipse2 from '/src/assets/Image/Ellipse2.png';
+import ellipse3 from '/src/assets/Image/Ellipse3.png';
+import ellipse4 from '/src/assets/Image/Ellipse4.png';
+import ellipse5 from '/src/assets/Image/Ellipse5.png';
+import ellipse6 from '/src/assets/Image/Ellipse6.png';
 
 const Home = () => {
   const games = useLoaderData();
@@ -34,7 +42,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border-2 border-gray-900 text-black font-bold rounded-lg hover:bg-linear-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white hover:border-transparent hover:shadow-lg transition-all duration-200 w-full sm:w-auto justify-center group"
           >
-            <img className="w-7" src="/src/assets/Image/playstore.png" alt="Google Play" />
+            <img className="w-7" src={playStoreIcon} alt="Google Play" />
             Google Play
           </a>
 
@@ -44,7 +52,7 @@ const Home = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 border-2 border-gray-900 text-black font-bold rounded-lg hover:bg-linear-to-r hover:from-[#632EE3] hover:to-[#9F62F2] hover:text-white hover:border-transparent hover:shadow-lg transition-all duration-200 w-full sm:w-auto justify-center group"
           >
-            <img className="w-8" src="/src/assets/Image/app store.png" alt="App Store" />
+            <img className="w-8" src={appStoreIcon} alt="App Store" />
             App Store
           </a>
         </div>
@@ -53,41 +61,41 @@ const Home = () => {
         <section className="relative w-full flex justify-center items-center mt-20 mb-0">
           {/* Left Icons */}
           <img
-            src="/src/assets/Image/Ellipse3.png"
+            src={ellipse3}
             className="absolute left-[6%] top-[18%] w-16 h-16 hidden lg:block"
             alt=""
           />
           <img
-            src="/src/assets/Image/Ellipse2.png"
+            src={ellipse2}
             className="absolute left-[-1%] top-[45%] w-16 h-16 hidden lg:block"
             alt=""
           />
           <img
-            src="/src/assets/Image/Ellipse1.png"
+            src={ellipse1}
             className="absolute left-[0%] bottom-[10%] w-16 h-16 hidden lg:block"
             alt=""
           />
 
           {/* iPhone Mockup */}
           <img
-            src="/src/assets/Image/iphone.png"
+            src={iphoneImg}
             className="w-65 sm:w-75 md:w-85 lg:w-95 z-10"
             alt="App Preview"
           />
 
           {/* Right Icons */}
           <img
-            src="/src/assets/Image/Ellipse4.png"
+            src={ellipse4}
             className="absolute right-[6%] top-[18%] w-16 h-16 hidden lg:block"
             alt=""
           />
           <img
-            src="/src/assets/Image/Ellipse5.png"
+            src={ellipse5}
             className="absolute right-[-1%] top-[45%] w-16 h-16 hidden lg:block"
             alt=""
           />
           <img
-            src="/src/assets/Image/Ellipse6.png"
+            src={ellipse6}
             className="absolute right-[0%] bottom-[10%] w-16 h-16 hidden lg:block"
             alt=""
           />

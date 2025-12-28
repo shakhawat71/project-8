@@ -2,6 +2,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
+import logo from '../../assets/Image/logo.png';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ const Navbar = () => {
             onClick={handleLogoClick}
           >
             <img
-              src="/src/assets/Image/logo.png"
+              src={logo}
               alt="Logo"
               className="h-8 w-8"
             />

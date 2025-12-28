@@ -2,6 +2,11 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+
+import downloadIcon from '/src/assets/Image/download.png';
+import starIcon from '/src/assets/Image/star.png';
+import reviewIcon from '/src/assets/Image/review.png';
+
 import {
   BarChart,
   Bar,
@@ -95,17 +100,17 @@ const AppDetails = () => {
           <div className="flex flex-wrap gap-4 mb-4">
             
             <div className="px-3 flex justify-center flex-col text-black font-medium">
-                <img className="w-10 mb-3 h-10" src="/src/assets/Image/download.png" alt="" />
+                <img className="w-10 mb-3 h-10" src={downloadIcon} alt="" />
                 <p className="mb-3">Downloads</p>
                 <p className="text-4xl font-bold">{formatDownloads(app.downloads)}</p>
             </div>
             <div className="px-3 flex justify-center  flex-col text-black font-medium">
-                <img className="w-10 mb-3 h-10" src="/src/assets/Image/star.png" alt="" />
+                <img className="w-10 mb-3 h-10" src={starIcon} alt="" />
                 <p className="mb-3">Average Ratings</p>
                 <p className="text-4xl font-bold">{app.ratingAvg}</p>
             </div>
             <div className="px-3 text-black flex flex-col justify-center">
-                <img className="h-10 mb-3 w-10" src="/src/assets/Image/review.png" alt="" />
+                <img className="h-10 mb-3 w-10" src={reviewIcon} alt="" />
                 <p className="mb-3">Total Reviews</p>
                 <p className="text-4xl font-bold">{app.reviews}</p>
             </div>
